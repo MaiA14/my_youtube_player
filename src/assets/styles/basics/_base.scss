@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+* {
+    outline: none;
+}
+
+html {
+    font-family: montserrat, sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    padding-top: 0;
+}
+
+
+h1, h3, h4, h5, h6 {
+    font-family: schoolbell, serif;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+h2{
+    font-size: rem(15px);
+}
+
+h1 {
+    font-size: rem(60px);
+}
+
+p {
+    margin: 0 0 rem(12px);
+    // max-width: 60ch;
+}
+
+.nav-container-header{
+    max-width: 100%;
+}
+
+
+@media (max-width: 420px){
+    .main-container {
+        max-width: 370px;
+  }
+}
+
+  i{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }

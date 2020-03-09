@@ -1,0 +1,16 @@
+.video-preview-container{
+    display: flex;
+    align-items: center;
+    cursor:pointer; 
+    box-shadow: none !important;
+}
+
+.video-title{
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 5em;
+    line-height: 1.8em;
+    font-weight: bold;
+}
