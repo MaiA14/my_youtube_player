@@ -21,7 +21,7 @@ class App extends Component {
         params: {
           part: 'snippet',
           maxResults: 5,
-          key: [process.env.REACT_APP_API_KEY],
+          key: 'AIzaSyCLWsmS5I9kKF5udMctVX-YovxLv-wfORM',
           q: searchTerm,
         }
       });
