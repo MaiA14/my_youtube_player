@@ -21,11 +21,10 @@ class App extends Component {
         params: {
           part: 'snippet',
           maxResults: 5,
-          key: 'AIzaSyCLWsmS5I9kKF5udMctVX-YovxLv-wfORM',
+          key: process.env.REACT_APP_API_KEY,
           q: searchTerm,
         }
       });
-      console.log(process.env.REACT_APP_API_KEY)
     this.setState({ videos: res.data.items, selectedVideo: res.data.items[0] });
   }
 
