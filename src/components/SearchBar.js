@@ -1,5 +1,4 @@
-import React, { Component } from 'react'
-import { Paper, TextField } from '@material-ui/core';
+import React, { Component } from 'react';
 import searchSvg from '../assets/imgs/icons/icons8-search.svg'
 
 class SearchBar extends Component {
@@ -21,17 +20,17 @@ class SearchBar extends Component {
 
     render() {
         return (
-            <Paper elevation={6} className="search-container">
+            <div className="search-container">
                 <form onSubmit={this.handleSubmit}>
                     <div className="flex">
-                    <input type="text" placeholder="Search..."
+                    <input type="text" id="search" placeholder="Search..."
                         onChange={this.handleChange} />
                     <button onSubmit={this.handleSubmit}>
-                        <img src={searchSvg}></img>
+                        <img src={searchSvg} width="24px" style={{padding: '2px'}}></img>
                     </button>
                     </div>
                 </form>
-            </Paper>
+            </div>
         )
     }
 }

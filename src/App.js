@@ -35,13 +35,16 @@ class App extends Component {
   render() {
     const { selectedVideo, videos } = this.state;
     return (
+
       <div className="main-container">
+        <div className="header-container">
+        <img src="https://res.cloudinary.com/dtwqtpteb/image/upload/v1583686690/hjcikbyf3xy0ab9u2ipp.png" width="34" style={{marginRight:"5px"}}/>
+        <h1 className="app-header">YouTube Player</h1>
+          <SearchBar onFormSubmit={this.handleSubmit} />
+        </div>
         <Grid className="app-grid" container spacing={10}></Grid>
         <Grid item xs={12}>
           <Grid container spacing={10}>
-            <Grid item xs={12}>
-              <SearchBar onFormSubmit={this.handleSubmit} />
-            </Grid>
             <Grid item xs={8} className="details-container">
               <VideoDetails video={selectedVideo} />
             </Grid>

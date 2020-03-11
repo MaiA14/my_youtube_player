@@ -11,8 +11,8 @@ const VideoDetails = ({ video }) => {
                     title="Video Player" src={videoSrc} />
             </Paper>
             <Paper elevation={6} className="video-description">
-                <Typography variant="h4">{video.snippet.title}</Typography>
-                <Typography variant="subtitle2">{video.snippet.description}/></Typography>
+                <Typography variant="h5">{video.snippet.title}</Typography>
+                <Typography variant="subtitle2">{video.snippet.description}</Typography>
             </Paper>
         </React.Fragment>
     )
