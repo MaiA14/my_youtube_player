@@ -2,7 +2,7 @@
 React web application using axios to fetch data from YouTube API. App contains video player (like youtube) and option to search for videos.  
 
 Technologies:\
-Front-end : React, axios, SCSS ,HTML5, Material-Ui.\
+Front-end : React, axios, SCSS ,HTML5, Material-ui.
 
 On app load: 
 
