@@ -4,8 +4,6 @@ React web application using axios to fetch data from YouTube API. App contains v
 Technologies:\
 Front-end : React, axios, SCSS ,HTML5, Material-ui.
 
-On app load: 
-
 ![Image of guideup overview](https://res.cloudinary.com/dtwqtpteb/image/upload/v1584129246/oqjaivsmgv9lqz0sufwo.png)
 
 Let's serach for Alive by Sia
