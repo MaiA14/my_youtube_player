@@ -3,6 +3,48 @@
   margin: 0 auto;
 }
 
+@media (max-width: 1000px){
+  .main-container {
+      max-width: 900px;
+      margin: 0 auto;
+}
+}
+
+@media (max-width: 900px){
+  .main-container {
+      max-width: 800px;
+      margin: 0 auto;
+}
+}
+
+@media (max-width: 800px){
+  .main-container {
+      max-width: 700px;
+      margin: 0 auto;
+}
+}
+
+@media (max-width: 700px){
+  .main-container {
+      max-width: 600px;
+      margin: 0 auto;
+}
+}
+
+@media (max-width: 600px){
+  .main-container {
+      max-width: 500px;
+      margin: 0 auto;
+}
+}
+
+@media (max-width: 460px){
+  .main-container {
+      max-width: 300px;
+      margin: 0 auto;
+}
+}
+
 .app-grid {
   display: flex;
   justify-content: center;
@@ -16,6 +58,12 @@
   margin-bottom: 30px;
   justify-content: flex-start;
 }
+
+// @media (max-width: 1000px){
+//   .header-container {
+//     justify-content: center;
+//   }
+//   }
 
 .app-header {
   width: 30%;

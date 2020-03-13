@@ -10,9 +10,9 @@ const VideoDetails = ({ video }) => {
                 <iframe frameBorder="0" height="100%" width="100%"
                     title="Video Player" src={videoSrc} />
             </Paper>
-            <Paper elevation={6} className="video-description">
+            <Paper elevation={6} className="video-title-and-desc">
                 <Typography variant="h5">{video.snippet.title}</Typography>
-                <Typography variant="subtitle2">{video.snippet.description}</Typography>
+                <Typography variant="subtitle2" className="video-description">{video.snippet.description}</Typography>
             </Paper>
         </React.Fragment>
     )
