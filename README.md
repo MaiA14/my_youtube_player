@@ -1,3 +1,21 @@
+# YouTube Player 
+React web application using axios to fetch data from YouTube API. App contains video player (like youtube) and option to search for videos.  
+
+Technologies:\
+Front-end : React, axios, SCSS ,HTML5, Material-Ui.\
+
+On app load: 
+
+![Image of guideup overview](https://res.cloudinary.com/dtwqtpteb/image/upload/v1584129246/oqjaivsmgv9lqz0sufwo.png)
+
+Let's serach for Alive by Sia
+
+![Image of guideup overview](https://res.cloudinary.com/dtwqtpteb/image/upload/v1584129495/pjbnmmg3zrlupqauf07u.png)
+
+By Clicking on the play button, we can hear the song.
+
+![Image of guideup overview](https://res.cloudinary.com/dtwqtpteb/image/upload/v1584129624/npaceznxea1pdm4cwzjb.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
